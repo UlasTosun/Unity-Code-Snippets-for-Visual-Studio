@@ -2,18 +2,24 @@
 <CodeSnippets xmlns="http://schemas.microsoft.com/VisualStudio/2005/CodeSnippet">
     <CodeSnippet Format="1.0.0">
         <Header>
-            <Title>StartCoroutine</Title>
+            <Title>PrivateMethod</Title>
             <Author>ULAS</Author>
-            <Shortcut>uSCoroutine</Shortcut>
+            <Shortcut>uPrivateM</Shortcut>
         </Header>
         <Snippet>
             <Code Language="CSharp">
-                <![CDATA[StartCoroutine($methodName$());$end$]]>
+                <![CDATA[private $returnType$ $MethodName$() {
+                    $end$
+                }]]>
             </Code>
               <Declarations>
                 <Literal>
-                  <ID>methodName</ID>
-                  <Default>methodName</Default>
+                  <ID>returnType</ID>
+                  <Default>returnType</Default>
+                </Literal>
+                <Literal>
+                  <ID>MethodName</ID>
+                  <Default>MethodName</Default>
                 </Literal>
               </Declarations>
         </Snippet>
