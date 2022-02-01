@@ -1,6 +1,6 @@
 # VS-Code-Snippets-for-Unity
 
-This repository includes more than 20 Visual Studio code snippets for Unity specific methods, statements, etc.
+This repository includes more than 25 Visual Studio code snippets for Unity specific methods, statements, etc.
 
 Visual Studio has its own built-in code snippets for commonly used C# features, however developers such as me need Unity specific code snippets for faster coding. So, I have created a couple of snippets for Unity, I hope you guys like them!
 
