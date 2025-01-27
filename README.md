@@ -1,4 +1,4 @@
-# VS-Code-Snippets-for-Unity
+# Unity Code Snippets for Visual Studio
 
 This repository includes more than 25 Visual Studio code snippets for Unity specific methods, statements, etc.
 
